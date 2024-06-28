@@ -1,0 +1,123 @@
+body{font-family: "montserrat", sans-serif;
+text-align: center;
+}
+
+
+
+
+h1,h2,h3,h4,h5,h6{font-family: 'montserrat-bold',sans-serif;}
+
+
+
+
+p{color: #0000;}
+
+.big-heading{font-family: 'Montserrat-black', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5}
+
+.section-heading{font-size: 3rem;
+line-height: 1.5;}
+/*container*/
+.container-fluid{
+  padding: 7% 15%;}
+  /*sections*/
+  .colored-section{
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)),
+     url("family-pet-dog-.jpg");
+background-size: cover;
+background-position: top;
+  color: #fff;
+
+  }
+  .white-section{background-color: #fff;
+
+
+  }
+
+/* navigation bar */
+.navbar-brand{font-family:"ubuntu";
+font-size:2.5rem;
+font-weight: bold;}
+.nav-item{padding: 0 18px;}
+.nav-link{font-size:1.2rem;
+font-family: "montserrat-light",sans-serif;}
+
+.navbar{padding-bottom:0 0 4.5rem;}
+
+/*Title section*/
+
+
+#title .container-fluid {
+  padding:3% 15% 7%;
+text-align: left;}
+
+/* download button */
+.download-button{margin: 5% 3% 5% 0%;}
+
+/* image */
+.title-image{width:23%;
+transform: rotate(25deg);
+position: absolute;
+right: 20%;
+}
+
+
+
+/* features section */
+#features{
+position: relative;
+z-index: 1;
+}
+.feature-title{font-size: 1.5rem;}
+
+
+.feature-box{text-align:center;
+padding: 5%;}
+.icon{color:#EAE509;}
+.icon:hover{color: #ff4c68;}
+
+
+
+/* Testimonial section */
+#testimonials{
+text-align: center;
+background-color: #7DCE13;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{width: 10%;
+border-radius: 100%;
+margin:5%;}
+
+#press{background-color: #7DCE13;
+text-align: center;
+padding-bottom: 3%;}
+.press-logo{width: 15%;
+margin:20px 20px 50px;}
+
+
+
+/* pricing section */
+#pricing{padding: 100px;
+text-align: center;}
+
+.price-text{font-size:3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{padding: 3% 2%;}
+/*CTA section*/
+#cta{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/*footer section*/
+
+.social-icon{margin:20px 10px;}
